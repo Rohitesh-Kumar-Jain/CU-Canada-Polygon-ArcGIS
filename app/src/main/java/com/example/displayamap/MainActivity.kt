@@ -71,10 +71,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setApiKeyForApp(){
-        // set your API key
-        // Note: it is not best practice to store API keys in source code. The API key is referenced
-        // here for the convenience of this tutorial.
-
         ArcGISRuntimeEnvironment.setApiKey("MY API HIDDEN")
 
     }
